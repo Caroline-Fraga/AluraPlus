@@ -7,6 +7,9 @@ Página estática demonstrativa com foco em HTML semântico, CSS responsivo e pr
 - Público-alvo: estudantes, recrutadores e avaliadores acadêmicos interessados em ver implementação prática de conceitos de front-end.
 
 ## Demonstração / Visualização 👀
+
+https://github.com/user-attachments/assets/a2c888e3-7a08-4fa3-b687-8753642c03bf
+
 - [![Deploy GitHub Pages](https://img.shields.io/badge/deploy-github%20pages-brightgreen)](https://caroline-fraga.github.io/AluraPlus/)
 - **Visualização local:** abra o arquivo `index.html` no navegador ou rode um servidor local (recomendado para evitar restrições de carregamento de fontes/recursos).
 
