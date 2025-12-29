@@ -7,7 +7,7 @@ Página estática demonstrativa com foco em HTML semântico, CSS responsivo e pr
 - Público-alvo: estudantes, recrutadores e avaliadores acadêmicos interessados em ver implementação prática de conceitos de front-end.
 
 ## Demonstração / Visualização 👀
-- [![Vercel](https://img.shields.io/badge/Vercel-deploy-black)](https://caroline-fraga.github.io/AluraPlus/)
+- [![Deploy GitHub Pages](https://img.shields.io/badge/deploy-github%20pages-brightgreen)](https://caroline-fraga.github.io/AluraPlus/)
 - **Visualização local:** abra o arquivo `index.html` no navegador ou rode um servidor local (recomendado para evitar restrições de carregamento de fontes/recursos).
 
 ## Como executar localmente ▶️
@@ -31,7 +31,7 @@ python -m http.server 8000
 - **HTML5:** marcação semântica (`header`, `main`, `nav`, `footer`, headings`) e atributos de acessibilidade.
 - **CSS3:** variáveis CSS (`:root`), grid para layout, media queries para responsividade e estilos focais acessíveis.
 - **Fontes Google (Inter):** tipografia com fallbacks no CSS.
-- **Imagens:** conteúdo em `img/` (recomenda-se otimizar para WebP e múltiplos tamanhos).
+- **Imagens:** conteúdo em `img/`.
 
 ## Estrutura de pastas e arquivos 📁
 ```
@@ -52,9 +52,6 @@ AluraPlus/
 - **Acessibilidade:** link para pular conteúdo, foco visível, atributos `alt`, linguagem do documento e nav com `aria-label`.
 - **Responsividade:** grid que adapta de duas colunas para uma em telas pequenas; imagens com `max-width` para evitar overflow.
 
-### Por que essas práticas importam
-- Melhoram a experiência de usuários com diferentes necessidades, facilitam manutenção do código e aumentam a qualidade percebida por recrutadores e avaliadores.
-
 ## Responsividade e acessibilidade (detalhes) 📱♿️
 - **Comportamento em dispositivos:** o layout usa `grid` com `grid-template-columns: repeat(2, 1fr)` em telas largas e colapsa para uma coluna em telas < 768px. Títulos e imagens ajustam-se com media queries.
 - **Acessibilidade básica implementada:**
@@ -67,15 +64,8 @@ AluraPlus/
 - **Aprendizados principais:**
 	- Como aplicar HTML semântico para melhorar acessibilidade e SEO.
 	- Organização de CSS com variáveis e como escrever media queries para comportamento previsível.
-	- Importância de otimizar assets (imagens) para performance.
 - **Desafios enfrentados:**
 	- Garantir que o layout ficasse estável em diferentes larguras sem quebrar imagens; solução: `max-width` nas imagens e ajustes de padding/margem via media queries.
-
-## Possíveis melhorias futuras 🚧
-- Otimizar imagens (WebP e múltiplas resoluções) e adicionar `srcset` para respostas por dispositivo.
-- Extrair pequenos componentes de CSS para um padrão BEM em português, se desejar padronização para projetos maiores.
-- Adicionar testes automatizados de acessibilidade (axe-core) e integração com CI.
-- Criar um deploy (GitHub Pages ou Netlify) para demonstrar o projeto publicamente.
 
 ## Autoria ✍️
 Desenvolvido por **Caroline Fraga da Silva**. Projetado para apresentação em portfólio e uso acadêmico.
