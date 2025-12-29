@@ -4,7 +4,6 @@ Página estática demonstrativa com foco em HTML semântico, CSS responsivo e pr
 
 ## Descrição 📝
 - O projeto é uma página de apresentação (landing) chamada **AluraPlus**, criada como exemplo para portfólio e uso acadêmico. O objetivo é demonstrar boas práticas de front-end: semântica em HTML, organização de CSS, responsividade e atenção à acessibilidade básica.
-- Público-alvo: estudantes, recrutadores e avaliadores acadêmicos interessados em ver implementação prática de conceitos de front-end.
 
 ## Demonstração / Visualização 👀
 
