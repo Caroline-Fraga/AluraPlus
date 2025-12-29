@@ -30,7 +30,7 @@ python -m http.server 8000
 - Acessibilidade básica: link "pular para o conteúdo", estilos de foco visível, atributos `alt` em imagens e `lang="pt-BR"` no documento.
 
 ## Tecnologias utilizadas 🛠️
-- **HTML5:** marcação semântica (`header`, `main`, `nav`, `footer`, headings`) e atributos de acessibilidade.
+- **HTML5:** marcação semântica (`header`, `main`, `nav`, `footer`, `headings`) e atributos de acessibilidade.
 - **CSS3:** variáveis CSS (`:root`), grid para layout, media queries para responsividade e estilos focais acessíveis.
 - **Fontes Google (Inter):** tipografia com fallbacks no CSS.
 - **Imagens:** conteúdo em `img/`.
